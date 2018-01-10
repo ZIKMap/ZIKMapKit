@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ZIKMapKit_Example' do
+  pod 'ZIKMapKit', :path => '../'
+
+  target 'ZIKMapKit_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
