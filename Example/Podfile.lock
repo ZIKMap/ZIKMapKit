@@ -1,0 +1,19 @@
+PODS:
+  - MJRefresh (1.4.7)
+  - ZIKMapKit (0.1.0):
+    - MJRefresh (~> 1.4.6)
+
+DEPENDENCIES:
+  - ZIKMapKit (from `../`)
+
+EXTERNAL SOURCES:
+  ZIKMapKit:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  MJRefresh: 6b140993028fa30f1fcb88e82925a7c7911415cf
+  ZIKMapKit: 675ed3bed2d6e8f486964d1a7dec4536aaf36271
+
+PODFILE CHECKSUM: e77ae7df5c264d5d74239055864222ea2eb7856d
+
+COCOAPODS: 1.1.1

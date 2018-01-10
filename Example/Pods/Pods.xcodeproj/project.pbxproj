@@ -1,0 +1,1161 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		042CE6A8CECD6F405C6ED0BD7F302CE1 /* MJRefreshGifHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = E336DECE1255884DCF10DE2F29F0BC58 /* MJRefreshGifHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		095A49FC791BDE3C1454F62C25809C0C /* MJRefresh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 82183AC086CC04F7C2B2F83F402DEA80 /* MJRefresh.framework */; };
+		0D6E9BB3F1E0592E3A0F4B62AC7A78A4 /* ZIKMapKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 43687BECA7709E27A6253E4312926665 /* ZIKMapKit.bundle */; };
+		144B08F33CAAB244B9826C9D2BB6348A /* UIScrollView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = 34EA302E7C3FF4E3EC7122AF214E8E8F /* UIScrollView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1A478FE7F1AA5226B976C3768CD7C888 /* UIScrollView+MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = AB8F995AB0CEA5E02027746590FAF871 /* UIScrollView+MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		241C440B89CB8EDD564EA0E4C3AB026A /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = A98BA5874B1526C2737B0028794B979F /* UIView+MJExtension.m */; };
+		2C52FC80B52E67EB13E50B21ECBAA6F7 /* Pods-ZIKMapKit_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CFAC04B57D48C0BBAC30A5FD5EAFBD8D /* Pods-ZIKMapKit_Example-dummy.m */; };
+		32FFA7683E0CE4C11FEB627BFCDCE4F6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2116F009EFF3864C40E13D67BA4A9149 /* Foundation.framework */; };
+		37234CAA414A4A0DA263AFD9D8BC117E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2116F009EFF3864C40E13D67BA4A9149 /* Foundation.framework */; };
+		3FDED5B3851B9B278DCD187532435311 /* Pods-ZIKMapKit_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6839BFE7876B91D74BA009805264CFFF /* Pods-ZIKMapKit_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4429792739C9F097CEB8B939F1BD26D7 /* ZIKMapKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = A8F9F1FBB9A480CE3A2533DE9058B50B /* ZIKMapKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		479A36E661A786791683FA8777508E6A /* MJRefreshComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 00FE1B0E4AB79A4292B65AC905DCFB2E /* MJRefreshComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		52868D47B14D405B8C41BE4F03A6950D /* MJRefreshConst.h in Headers */ = {isa = PBXBuildFile; fileRef = 98FAF6D4767693507A828C2FEEC66D86 /* MJRefreshConst.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		55E6BD5894EE568FB20DE267EFA4DCCA /* ZIKMapKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 867CB7ECEB1B11730B07526F2CB5DCCF /* ZIKMapKit-dummy.m */; };
+		56C0D5442F01D75CAE28C370341D2C68 /* MJRefreshHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 040F2DB9B20E8C1A1D0731E2FF91FAF5 /* MJRefreshHeader.m */; };
+		56C35D4BCB48F6AC1073D1D4EA6727AE /* MJRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = 19B95B636A790836201280413CFDF74B /* MJRefreshGifHeader.m */; };
+		60EE825D344F965353ADAFADF19A3F80 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2116F009EFF3864C40E13D67BA4A9149 /* Foundation.framework */; };
+		65CAD697926DA15D9CF11A146FC61FAC /* Pods-ZIKMapKit_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B6C03223539E6A0B789F25EE7F7D1297 /* Pods-ZIKMapKit_Tests-dummy.m */; };
+		6C391F362C71ED493BB28CEF21763F45 /* MJRefreshFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = E170E6A2B9CE9A9FC1598DD77F3D9181 /* MJRefreshFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		74896A0AEF4C150F7E1D43741442E377 /* ZIKMap.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 16D7C7DF17022331450F8004F241B87E /* ZIKMap.bundle */; };
+		796E6B58A39DC61B26E16A029D136477 /* MJRefreshHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BFCB875EA4A229708D3655397C931E08 /* MJRefreshHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7E9027BC84A08C58E43F4D095D72E739 /* UIView+MJExtension.h in Headers */ = {isa = PBXBuildFile; fileRef = B055F502347AC4187D2D542ACF5EBD62 /* UIView+MJExtension.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9817164E9F6C5B766CFE01FFB67A1EFF /* MJRefresh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D5E59B8EF39F9B7F9277D0B4BD04B37 /* MJRefresh-dummy.m */; };
+		A0769460965CCFD4961C85D8608E333C /* MJRefresh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 865B151FF06CDF2BB02C4A8F49E1942C /* MJRefresh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A11882D5320828152C51457CA8E21A18 /* UIScrollView+MJRefresh.m in Sources */ = {isa = PBXBuildFile; fileRef = E979D6833D4B25CAFDADE0F5B461A162 /* UIScrollView+MJRefresh.m */; };
+		AEDDBC8BCD7710EFF0F72CD678141121 /* ZIKMapTextViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = C376A5A0A7B6BA505B4347E684B4B547 /* ZIKMapTextViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B55C101D928BD4836759BB3047A21CB0 /* MJRefreshGifFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = 2E246E8D6CFD807FECFF2902622531E8 /* MJRefreshGifFooter.m */; };
+		B7650A4A12BDCA18CCAE2E41496E0C0D /* MJRefreshFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = EFB1012CA893F68D64F73842A212A9B0 /* MJRefreshFooter.m */; };
+		B8E5E6E4218659D0FB8AAC854CC7D259 /* MJRefreshComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = AEACE1AB3B3B2B1535F3703813F931E4 /* MJRefreshComponent.m */; };
+		C5E35FEBAF7E4605D61E954C3E02A3AA /* MJRefreshLegendHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 0ED600048865B731A1461F25CEEA6B1D /* MJRefreshLegendHeader.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C9482BEEC7775A47CFD327C20BCF0699 /* MJRefreshLegendHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = B90E260BBCA8F0D836A0FA56828EAFC3 /* MJRefreshLegendHeader.m */; };
+		CB0D0DF431CA701AEBF9E1187095227E /* MJRefreshGifFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = C4B7154DC25F7A06A4F649F161376D53 /* MJRefreshGifFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D391F2926932C547B22E70C9F6692275 /* MJRefreshLegendFooter.m in Sources */ = {isa = PBXBuildFile; fileRef = CDB6F9FD6F24F2FCD7F3D238FCDB13D4 /* MJRefreshLegendFooter.m */; };
+		D5F984091AF5C259B56B03FBED2A8FFE /* ZIKMapTextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9EC26BE0ED1108D6828D4CE216E66C1A /* ZIKMapTextViewController.m */; };
+		E4517A149F29B4CF25CFA9C13D4876A9 /* MJRefreshConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 30A29A1D1B4C9E62023CE7D307D3B62C /* MJRefreshConst.m */; };
+		EAF4E573258633FF8E2056F9A057C61B /* MJRefresh.h in Headers */ = {isa = PBXBuildFile; fileRef = C93E25E070F336F487F5C9F807C0FAF1 /* MJRefresh.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC4D7884C67EF63CED88993EAF2E1F9D /* MJRefreshLegendFooter.h in Headers */ = {isa = PBXBuildFile; fileRef = 59B6A916DD54382A3E3273962DD33A5B /* MJRefreshLegendFooter.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EC7FC12D0FCB5A33017B70D92E095BF8 /* UIScrollView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0745D6B6AC847F539247F075C920E713 /* UIScrollView+MJExtension.m */; };
+		F8680E7C947E96DC6739057F5B9E7DF6 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2116F009EFF3864C40E13D67BA4A9149 /* Foundation.framework */; };
+		FB953AF6BD443A78E7CF8FF005CFBC4A /* Pods-ZIKMapKit_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E1710DC3368D383DCF3F550F5F58EC1A /* Pods-ZIKMapKit_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FE0A215B275321CA6F1C901060906CAA /* MJRefresh.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 321B99B95A0E748412037B66A9147040 /* MJRefresh.bundle */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		102686C705654BC22B6071A11CFC86E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B8BEE506A1A443A93C7A18FB491BBFD7;
+			remoteInfo = "ZIKMapKit-ZIKMapKit";
+		};
+		18783CD0FF67B5E2F474E03EBFBA4994 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62BD4396E233E25C5D5A7A69DF027590;
+			remoteInfo = MJRefresh;
+		};
+		3F802397AAC969B38A81BBE85D01552E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D49F50535D0393A0881EF6F00702A75B;
+			remoteInfo = ZIKMapKit;
+		};
+		CF1B4F5B205A00460E8D2260393D77E3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 62BD4396E233E25C5D5A7A69DF027590;
+			remoteInfo = MJRefresh;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		00FE1B0E4AB79A4292B65AC905DCFB2E /* MJRefreshComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshComponent.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshComponent.h; sourceTree = "<group>"; };
+		040F2DB9B20E8C1A1D0731E2FF91FAF5 /* MJRefreshHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshHeader.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshHeader.m; sourceTree = "<group>"; };
+		0745D6B6AC847F539247F075C920E713 /* UIScrollView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJExtension.m"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+MJExtension.m"; sourceTree = "<group>"; };
+		0AC545B3993A9739CA6EF9E5AAD7DCD2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0D8C8568BC9877F95337A14AF6C9711A /* Pods-ZIKMapKit_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKMapKit_Tests-resources.sh"; sourceTree = "<group>"; };
+		0ED600048865B731A1461F25CEEA6B1D /* MJRefreshLegendHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshLegendHeader.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshLegendHeader.h; sourceTree = "<group>"; };
+		112A9FBB27170BE164E91C4ADBED5946 /* MJRefresh.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MJRefresh.xcconfig; sourceTree = "<group>"; };
+		16D7C7DF17022331450F8004F241B87E /* ZIKMap.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; path = ZIKMap.bundle; sourceTree = "<group>"; };
+		17A915F2846B051E2FEFC261A048E448 /* Pods-ZIKMapKit_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZIKMapKit_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		1854A4C5EDFD95D834412900538EC7AD /* ZIKMapKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ZIKMapKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		19B95B636A790836201280413CFDF74B /* MJRefreshGifHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifHeader.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshGifHeader.m; sourceTree = "<group>"; };
+		1AFADAB13F9B3AC28557CBDC97644066 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1E5750E9D72A78C008EABABB10B7B6A2 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2116F009EFF3864C40E13D67BA4A9149 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		2E246E8D6CFD807FECFF2902622531E8 /* MJRefreshGifFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshGifFooter.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshGifFooter.m; sourceTree = "<group>"; };
+		30A29A1D1B4C9E62023CE7D307D3B62C /* MJRefreshConst.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshConst.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshConst.m; sourceTree = "<group>"; };
+		321B99B95A0E748412037B66A9147040 /* MJRefresh.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = MJRefresh.bundle; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.bundle; sourceTree = "<group>"; };
+		34EA302E7C3FF4E3EC7122AF214E8E8F /* UIScrollView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJExtension.h"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+MJExtension.h"; sourceTree = "<group>"; };
+		3D853C31A02A8FA10A840342A90FFFC4 /* Pods_ZIKMapKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZIKMapKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		43687BECA7709E27A6253E4312926665 /* ZIKMapKit.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZIKMapKit.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		44783AA36795B4E4EF4EF5705C79C90B /* Pods-ZIKMapKit_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ZIKMapKit_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		4A9CC7F2162F66C4F19BA4A799B7C793 /* ResourceBundle-ZIKMapKit-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "ResourceBundle-ZIKMapKit-Info.plist"; sourceTree = "<group>"; };
+		56E2A97AA4E0C9E6AA9AF5650C1DB191 /* Pods-ZIKMapKit_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZIKMapKit_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		58A90AF8C1577225AF7A060AF1819B47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		59B6A916DD54382A3E3273962DD33A5B /* MJRefreshLegendFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshLegendFooter.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshLegendFooter.h; sourceTree = "<group>"; };
+		5BA4C78E896E8C5B19E11E28D93EBBB9 /* Pods-ZIKMapKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKMapKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		6839BFE7876B91D74BA009805264CFFF /* Pods-ZIKMapKit_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZIKMapKit_Example-umbrella.h"; sourceTree = "<group>"; };
+		77F0A96D7A16E1E76B259CD5F1C50489 /* ZIKMapKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ZIKMapKit.xcconfig; sourceTree = "<group>"; };
+		82183AC086CC04F7C2B2F83F402DEA80 /* MJRefresh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = MJRefresh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8438E545EA65B5B4A9CBD1E7547B28C0 /* Pods_ZIKMapKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZIKMapKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		865B151FF06CDF2BB02C4A8F49E1942C /* MJRefresh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-umbrella.h"; sourceTree = "<group>"; };
+		867CB7ECEB1B11730B07526F2CB5DCCF /* ZIKMapKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ZIKMapKit-dummy.m"; sourceTree = "<group>"; };
+		89C3B932B6BCD9C3BB61D6043E0B7999 /* Pods-ZIKMapKit_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZIKMapKit_Example.modulemap"; sourceTree = "<group>"; };
+		8D5E59B8EF39F9B7F9277D0B4BD04B37 /* MJRefresh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MJRefresh-dummy.m"; sourceTree = "<group>"; };
+		9195F56A1A6D60417688DA83F2FF5D79 /* Pods-ZIKMapKit_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ZIKMapKit_Tests.modulemap"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		95C965B695EFAACE16F2F8C1AF5726B7 /* Pods-ZIKMapKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKMapKit_Example.release.xcconfig"; sourceTree = "<group>"; };
+		98FAF6D4767693507A828C2FEEC66D86 /* MJRefreshConst.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshConst.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshConst.h; sourceTree = "<group>"; };
+		9EC26BE0ED1108D6828D4CE216E66C1A /* ZIKMapTextViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = ZIKMapTextViewController.m; sourceTree = "<group>"; };
+		9F9E1A5860241B36C9352370328B769B /* Pods-ZIKMapKit_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKMapKit_Example-frameworks.sh"; sourceTree = "<group>"; };
+		A8F9F1FBB9A480CE3A2533DE9058B50B /* ZIKMapKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIKMapKit-umbrella.h"; sourceTree = "<group>"; };
+		A98BA5874B1526C2737B0028794B979F /* UIView+MJExtension.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MJExtension.m"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIView+MJExtension.m"; sourceTree = "<group>"; };
+		AB8F995AB0CEA5E02027746590FAF871 /* UIScrollView+MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+MJRefresh.h"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+MJRefresh.h"; sourceTree = "<group>"; };
+		AEACE1AB3B3B2B1535F3703813F931E4 /* MJRefreshComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshComponent.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshComponent.m; sourceTree = "<group>"; };
+		B055F502347AC4187D2D542ACF5EBD62 /* UIView+MJExtension.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MJExtension.h"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIView+MJExtension.h"; sourceTree = "<group>"; };
+		B2791E63825D6B56D4D30C881048A44C /* Pods-ZIKMapKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKMapKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		B6C03223539E6A0B789F25EE7F7D1297 /* Pods-ZIKMapKit_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZIKMapKit_Tests-dummy.m"; sourceTree = "<group>"; };
+		B90E260BBCA8F0D836A0FA56828EAFC3 /* MJRefreshLegendHeader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshLegendHeader.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshLegendHeader.m; sourceTree = "<group>"; };
+		BA829D3CACE8FA04D5B02616BD80F978 /* MJRefresh-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MJRefresh-prefix.pch"; sourceTree = "<group>"; };
+		BFCB875EA4A229708D3655397C931E08 /* MJRefreshHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshHeader.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshHeader.h; sourceTree = "<group>"; };
+		C376A5A0A7B6BA505B4347E684B4B547 /* ZIKMapTextViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = ZIKMapTextViewController.h; sourceTree = "<group>"; };
+		C421F2B079FCD1A3B004EA0F0D7DF03B /* MJRefresh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = MJRefresh.modulemap; sourceTree = "<group>"; };
+		C4B7154DC25F7A06A4F649F161376D53 /* MJRefreshGifFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifFooter.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshGifFooter.h; sourceTree = "<group>"; };
+		C54194DFE629FA5B6A728A98E0AA4405 /* ZIKMapKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ZIKMapKit-prefix.pch"; sourceTree = "<group>"; };
+		C93E25E070F336F487F5C9F807C0FAF1 /* MJRefresh.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefresh.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefresh.h; sourceTree = "<group>"; };
+		CA7F45272D58ECD2FDDC65FE9FEA559A /* Pods-ZIKMapKit_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ZIKMapKit_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		CDB6F9FD6F24F2FCD7F3D238FCDB13D4 /* MJRefreshLegendFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshLegendFooter.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshLegendFooter.m; sourceTree = "<group>"; };
+		CF8D442E278309806F98593A42C63239 /* Pods-ZIKMapKit_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKMapKit_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		CFAC04B57D48C0BBAC30A5FD5EAFBD8D /* Pods-ZIKMapKit_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ZIKMapKit_Example-dummy.m"; sourceTree = "<group>"; };
+		D663B493F8DF2D4136C86D4A0C3F5ECC /* ZIKMapKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = ZIKMapKit.modulemap; sourceTree = "<group>"; };
+		D6B6CBD65DD541863C4ECCF1454413A5 /* Pods-ZIKMapKit_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ZIKMapKit_Example-resources.sh"; sourceTree = "<group>"; };
+		D7EE851988B1D9B54E477D63FA9E44AE /* Pods-ZIKMapKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ZIKMapKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		E170E6A2B9CE9A9FC1598DD77F3D9181 /* MJRefreshFooter.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshFooter.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshFooter.h; sourceTree = "<group>"; };
+		E1710DC3368D383DCF3F550F5F58EC1A /* Pods-ZIKMapKit_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ZIKMapKit_Tests-umbrella.h"; sourceTree = "<group>"; };
+		E336DECE1255884DCF10DE2F29F0BC58 /* MJRefreshGifHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MJRefreshGifHeader.h; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshGifHeader.h; sourceTree = "<group>"; };
+		E979D6833D4B25CAFDADE0F5B461A162 /* UIScrollView+MJRefresh.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+MJRefresh.m"; path = "MJRefreshExample/MJRefreshExample/MJRefresh/UIScrollView+MJRefresh.m"; sourceTree = "<group>"; };
+		EFB1012CA893F68D64F73842A212A9B0 /* MJRefreshFooter.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MJRefreshFooter.m; path = MJRefreshExample/MJRefreshExample/MJRefresh/MJRefreshFooter.m; sourceTree = "<group>"; };
+		FC579B3D6FEEF040AA61CB26AE06F7E4 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		362199DFA144AFE3F25D892927DF1C0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				37234CAA414A4A0DA263AFD9D8BC117E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		89FFDC8264BA9547BB5FAC8923D29EE2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BC9CD00D66DF577E37D76649B422E96F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				32FFA7683E0CE4C11FEB627BFCDCE4F6 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C29877CB761B8EEBF73037D29AE262FB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60EE825D344F965353ADAFADF19A3F80 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F6467ACA45E5C2D085C33C1E791E3D55 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8680E7C947E96DC6739057F5B9E7DF6 /* Foundation.framework in Frameworks */,
+				095A49FC791BDE3C1454F62C25809C0C /* MJRefresh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		18C5788C8FB4801AB78E7D7FB35C3B84 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				9E9D3E8B8129B3284C0A09C75878A1E1 /* Pods-ZIKMapKit_Example */,
+				F1F56BAB40969196D86121758BCB367A /* Pods-ZIKMapKit_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		2A73E4BD15D33F28DF2566C437EF5CC3 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				C376A5A0A7B6BA505B4347E684B4B547 /* ZIKMapTextViewController.h */,
+				9EC26BE0ED1108D6828D4CE216E66C1A /* ZIKMapTextViewController.m */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		4E5B8A7DAD2DE503E18CE230FC8A4575 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1E5750E9D72A78C008EABABB10B7B6A2 /* MJRefresh.framework */,
+				8438E545EA65B5B4A9CBD1E7547B28C0 /* Pods_ZIKMapKit_Example.framework */,
+				3D853C31A02A8FA10A840342A90FFFC4 /* Pods_ZIKMapKit_Tests.framework */,
+				43687BECA7709E27A6253E4312926665 /* ZIKMapKit.bundle */,
+				1854A4C5EDFD95D834412900538EC7AD /* ZIKMapKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		5A314B0D98D6CA5289459E3077DEEACB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				2116F009EFF3864C40E13D67BA4A9149 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		636FB83E455434FB29921F97C5849BBB /* ZIKMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				669F57E6EC23858B5F41B18D9FC27F6D /* Assets */,
+			);
+			path = ZIKMapKit;
+			sourceTree = "<group>";
+		};
+		669F57E6EC23858B5F41B18D9FC27F6D /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				16D7C7DF17022331450F8004F241B87E /* ZIKMap.bundle */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		69487BAF8111D70B23E5A015396FA227 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FC579B3D6FEEF040AA61CB26AE06F7E4 /* Info.plist */,
+				C421F2B079FCD1A3B004EA0F0D7DF03B /* MJRefresh.modulemap */,
+				112A9FBB27170BE164E91C4ADBED5946 /* MJRefresh.xcconfig */,
+				8D5E59B8EF39F9B7F9277D0B4BD04B37 /* MJRefresh-dummy.m */,
+				BA829D3CACE8FA04D5B02616BD80F978 /* MJRefresh-prefix.pch */,
+				865B151FF06CDF2BB02C4A8F49E1942C /* MJRefresh-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/MJRefresh";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C5B4688AB9517590CC5328F181D4E577 /* Development Pods */,
+				FF0EAEB5F9487FB7A4384FBA6D0CC78D /* Frameworks */,
+				F68AF7B73A597B0E264850273A08878B /* Pods */,
+				4E5B8A7DAD2DE503E18CE230FC8A4575 /* Products */,
+				18C5788C8FB4801AB78E7D7FB35C3B84 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		983EEAC4F671E8543EFBE52F031236DC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				636FB83E455434FB29921F97C5849BBB /* ZIKMapKit */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		9E9D3E8B8129B3284C0A09C75878A1E1 /* Pods-ZIKMapKit_Example */ = {
+			isa = PBXGroup;
+			children = (
+				58A90AF8C1577225AF7A060AF1819B47 /* Info.plist */,
+				89C3B932B6BCD9C3BB61D6043E0B7999 /* Pods-ZIKMapKit_Example.modulemap */,
+				17A915F2846B051E2FEFC261A048E448 /* Pods-ZIKMapKit_Example-acknowledgements.markdown */,
+				CA7F45272D58ECD2FDDC65FE9FEA559A /* Pods-ZIKMapKit_Example-acknowledgements.plist */,
+				CFAC04B57D48C0BBAC30A5FD5EAFBD8D /* Pods-ZIKMapKit_Example-dummy.m */,
+				9F9E1A5860241B36C9352370328B769B /* Pods-ZIKMapKit_Example-frameworks.sh */,
+				D6B6CBD65DD541863C4ECCF1454413A5 /* Pods-ZIKMapKit_Example-resources.sh */,
+				6839BFE7876B91D74BA009805264CFFF /* Pods-ZIKMapKit_Example-umbrella.h */,
+				5BA4C78E896E8C5B19E11E28D93EBBB9 /* Pods-ZIKMapKit_Example.debug.xcconfig */,
+				95C965B695EFAACE16F2F8C1AF5726B7 /* Pods-ZIKMapKit_Example.release.xcconfig */,
+			);
+			name = "Pods-ZIKMapKit_Example";
+			path = "Target Support Files/Pods-ZIKMapKit_Example";
+			sourceTree = "<group>";
+		};
+		A2315F0E307E4033194FCCB59C2C7AC2 /* ZIKMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				2A73E4BD15D33F28DF2566C437EF5CC3 /* Classes */,
+			);
+			path = ZIKMapKit;
+			sourceTree = "<group>";
+		};
+		C5B4688AB9517590CC5328F181D4E577 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				F7E18E820F4C6232C7920FCF6EC4F319 /* ZIKMapKit */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		C959FC108B95C5878EA7EAF5DAEB4C6E /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				321B99B95A0E748412037B66A9147040 /* MJRefresh.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		D9D6E4C180569EF89313C2F367D7508C /* MJRefresh */ = {
+			isa = PBXGroup;
+			children = (
+				C93E25E070F336F487F5C9F807C0FAF1 /* MJRefresh.h */,
+				00FE1B0E4AB79A4292B65AC905DCFB2E /* MJRefreshComponent.h */,
+				AEACE1AB3B3B2B1535F3703813F931E4 /* MJRefreshComponent.m */,
+				98FAF6D4767693507A828C2FEEC66D86 /* MJRefreshConst.h */,
+				30A29A1D1B4C9E62023CE7D307D3B62C /* MJRefreshConst.m */,
+				E170E6A2B9CE9A9FC1598DD77F3D9181 /* MJRefreshFooter.h */,
+				EFB1012CA893F68D64F73842A212A9B0 /* MJRefreshFooter.m */,
+				C4B7154DC25F7A06A4F649F161376D53 /* MJRefreshGifFooter.h */,
+				2E246E8D6CFD807FECFF2902622531E8 /* MJRefreshGifFooter.m */,
+				E336DECE1255884DCF10DE2F29F0BC58 /* MJRefreshGifHeader.h */,
+				19B95B636A790836201280413CFDF74B /* MJRefreshGifHeader.m */,
+				BFCB875EA4A229708D3655397C931E08 /* MJRefreshHeader.h */,
+				040F2DB9B20E8C1A1D0731E2FF91FAF5 /* MJRefreshHeader.m */,
+				59B6A916DD54382A3E3273962DD33A5B /* MJRefreshLegendFooter.h */,
+				CDB6F9FD6F24F2FCD7F3D238FCDB13D4 /* MJRefreshLegendFooter.m */,
+				0ED600048865B731A1461F25CEEA6B1D /* MJRefreshLegendHeader.h */,
+				B90E260BBCA8F0D836A0FA56828EAFC3 /* MJRefreshLegendHeader.m */,
+				34EA302E7C3FF4E3EC7122AF214E8E8F /* UIScrollView+MJExtension.h */,
+				0745D6B6AC847F539247F075C920E713 /* UIScrollView+MJExtension.m */,
+				AB8F995AB0CEA5E02027746590FAF871 /* UIScrollView+MJRefresh.h */,
+				E979D6833D4B25CAFDADE0F5B461A162 /* UIScrollView+MJRefresh.m */,
+				B055F502347AC4187D2D542ACF5EBD62 /* UIView+MJExtension.h */,
+				A98BA5874B1526C2737B0028794B979F /* UIView+MJExtension.m */,
+				C959FC108B95C5878EA7EAF5DAEB4C6E /* Resources */,
+				69487BAF8111D70B23E5A015396FA227 /* Support Files */,
+			);
+			path = MJRefresh;
+			sourceTree = "<group>";
+		};
+		F1F56BAB40969196D86121758BCB367A /* Pods-ZIKMapKit_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				0AC545B3993A9739CA6EF9E5AAD7DCD2 /* Info.plist */,
+				9195F56A1A6D60417688DA83F2FF5D79 /* Pods-ZIKMapKit_Tests.modulemap */,
+				44783AA36795B4E4EF4EF5705C79C90B /* Pods-ZIKMapKit_Tests-acknowledgements.markdown */,
+				56E2A97AA4E0C9E6AA9AF5650C1DB191 /* Pods-ZIKMapKit_Tests-acknowledgements.plist */,
+				B6C03223539E6A0B789F25EE7F7D1297 /* Pods-ZIKMapKit_Tests-dummy.m */,
+				CF8D442E278309806F98593A42C63239 /* Pods-ZIKMapKit_Tests-frameworks.sh */,
+				0D8C8568BC9877F95337A14AF6C9711A /* Pods-ZIKMapKit_Tests-resources.sh */,
+				E1710DC3368D383DCF3F550F5F58EC1A /* Pods-ZIKMapKit_Tests-umbrella.h */,
+				B2791E63825D6B56D4D30C881048A44C /* Pods-ZIKMapKit_Tests.debug.xcconfig */,
+				D7EE851988B1D9B54E477D63FA9E44AE /* Pods-ZIKMapKit_Tests.release.xcconfig */,
+			);
+			name = "Pods-ZIKMapKit_Tests";
+			path = "Target Support Files/Pods-ZIKMapKit_Tests";
+			sourceTree = "<group>";
+		};
+		F59FD7054D69841672632C95EE71BB75 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				1AFADAB13F9B3AC28557CBDC97644066 /* Info.plist */,
+				4A9CC7F2162F66C4F19BA4A799B7C793 /* ResourceBundle-ZIKMapKit-Info.plist */,
+				D663B493F8DF2D4136C86D4A0C3F5ECC /* ZIKMapKit.modulemap */,
+				77F0A96D7A16E1E76B259CD5F1C50489 /* ZIKMapKit.xcconfig */,
+				867CB7ECEB1B11730B07526F2CB5DCCF /* ZIKMapKit-dummy.m */,
+				C54194DFE629FA5B6A728A98E0AA4405 /* ZIKMapKit-prefix.pch */,
+				A8F9F1FBB9A480CE3A2533DE9058B50B /* ZIKMapKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/ZIKMapKit";
+			sourceTree = "<group>";
+		};
+		F68AF7B73A597B0E264850273A08878B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				D9D6E4C180569EF89313C2F367D7508C /* MJRefresh */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		F7E18E820F4C6232C7920FCF6EC4F319 /* ZIKMapKit */ = {
+			isa = PBXGroup;
+			children = (
+				983EEAC4F671E8543EFBE52F031236DC /* Resources */,
+				F59FD7054D69841672632C95EE71BB75 /* Support Files */,
+				A2315F0E307E4033194FCCB59C2C7AC2 /* ZIKMapKit */,
+			);
+			name = ZIKMapKit;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		FF0EAEB5F9487FB7A4384FBA6D0CC78D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				82183AC086CC04F7C2B2F83F402DEA80 /* MJRefresh.framework */,
+				5A314B0D98D6CA5289459E3077DEEACB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		1D3B546F21E60A4E950602A04B1F45C1 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4429792739C9F097CEB8B939F1BD26D7 /* ZIKMapKit-umbrella.h in Headers */,
+				AEDDBC8BCD7710EFF0F72CD678141121 /* ZIKMapTextViewController.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		81344F39FFA6D7BC4B0132C60E624E24 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FB953AF6BD443A78E7CF8FF005CFBC4A /* Pods-ZIKMapKit_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		93D304C976580850D4FEF53DB017E72D /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FDED5B3851B9B278DCD187532435311 /* Pods-ZIKMapKit_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E6DF9B27B59909CC767D5DE6EE43F98F /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0769460965CCFD4961C85D8608E333C /* MJRefresh-umbrella.h in Headers */,
+				EAF4E573258633FF8E2056F9A057C61B /* MJRefresh.h in Headers */,
+				479A36E661A786791683FA8777508E6A /* MJRefreshComponent.h in Headers */,
+				52868D47B14D405B8C41BE4F03A6950D /* MJRefreshConst.h in Headers */,
+				6C391F362C71ED493BB28CEF21763F45 /* MJRefreshFooter.h in Headers */,
+				CB0D0DF431CA701AEBF9E1187095227E /* MJRefreshGifFooter.h in Headers */,
+				042CE6A8CECD6F405C6ED0BD7F302CE1 /* MJRefreshGifHeader.h in Headers */,
+				796E6B58A39DC61B26E16A029D136477 /* MJRefreshHeader.h in Headers */,
+				EC4D7884C67EF63CED88993EAF2E1F9D /* MJRefreshLegendFooter.h in Headers */,
+				C5E35FEBAF7E4605D61E954C3E02A3AA /* MJRefreshLegendHeader.h in Headers */,
+				144B08F33CAAB244B9826C9D2BB6348A /* UIScrollView+MJExtension.h in Headers */,
+				1A478FE7F1AA5226B976C3768CD7C888 /* UIScrollView+MJRefresh.h in Headers */,
+				7E9027BC84A08C58E43F4D095D72E739 /* UIView+MJExtension.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		3B4F2A9612C9B486A4754CEE23F2651A /* Pods-ZIKMapKit_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 077A166C1BE527D60480FB8966F815F1 /* Build configuration list for PBXNativeTarget "Pods-ZIKMapKit_Tests" */;
+			buildPhases = (
+				046C7B5BF79E188CDC58B31EAA4405F0 /* Sources */,
+				BC9CD00D66DF577E37D76649B422E96F /* Frameworks */,
+				81344F39FFA6D7BC4B0132C60E624E24 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ZIKMapKit_Tests";
+			productName = "Pods-ZIKMapKit_Tests";
+			productReference = 3D853C31A02A8FA10A840342A90FFFC4 /* Pods_ZIKMapKit_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		62BD4396E233E25C5D5A7A69DF027590 /* MJRefresh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F52F92C545DDEC90E147576860F1FA32 /* Build configuration list for PBXNativeTarget "MJRefresh" */;
+			buildPhases = (
+				01602B3E2F394F1328F1F817F3802D71 /* Sources */,
+				C29877CB761B8EEBF73037D29AE262FB /* Frameworks */,
+				E6DF9B27B59909CC767D5DE6EE43F98F /* Headers */,
+				990F48421A51E7E5417E7501B1CB5981 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MJRefresh;
+			productName = MJRefresh;
+			productReference = 1E5750E9D72A78C008EABABB10B7B6A2 /* MJRefresh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		746287D5035816916039699BFCB002C1 /* Pods-ZIKMapKit_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 41E3E86EF7F958D7A58073D06AED446C /* Build configuration list for PBXNativeTarget "Pods-ZIKMapKit_Example" */;
+			buildPhases = (
+				0A1C440D8ACE727A99F94891EA9C5258 /* Sources */,
+				362199DFA144AFE3F25D892927DF1C0E /* Frameworks */,
+				93D304C976580850D4FEF53DB017E72D /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0198BC22FACBC94C46294F81701925B3 /* PBXTargetDependency */,
+				75217C4DD1669C634ADDD43A7FE69335 /* PBXTargetDependency */,
+			);
+			name = "Pods-ZIKMapKit_Example";
+			productName = "Pods-ZIKMapKit_Example";
+			productReference = 8438E545EA65B5B4A9CBD1E7547B28C0 /* Pods_ZIKMapKit_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B8BEE506A1A443A93C7A18FB491BBFD7 /* ZIKMapKit-ZIKMapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2FBE639E7D6A64E02F731251BF1B080A /* Build configuration list for PBXNativeTarget "ZIKMapKit-ZIKMapKit" */;
+			buildPhases = (
+				6FA6A958C065DC87A23A98F28BB9BDE5 /* Sources */,
+				89FFDC8264BA9547BB5FAC8923D29EE2 /* Frameworks */,
+				1B2ADF4B6E15482965C1A091C001FAA9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ZIKMapKit-ZIKMapKit";
+			productName = "ZIKMapKit-ZIKMapKit";
+			productReference = 43687BECA7709E27A6253E4312926665 /* ZIKMapKit.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+		D49F50535D0393A0881EF6F00702A75B /* ZIKMapKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BD8194647922F1ABD028FE6A040C8D93 /* Build configuration list for PBXNativeTarget "ZIKMapKit" */;
+			buildPhases = (
+				AFCFF8A591CC2C63B4876A59F04BAD41 /* Sources */,
+				F6467ACA45E5C2D085C33C1E791E3D55 /* Frameworks */,
+				E85881340A9C08AC83E43EF76F7A6250 /* Resources */,
+				1D3B546F21E60A4E950602A04B1F45C1 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FA12A80B19C0CF23B30DCEFD8D8EA4FB /* PBXTargetDependency */,
+				7CF22077479E9ED60465B558E11D0F80 /* PBXTargetDependency */,
+			);
+			name = ZIKMapKit;
+			productName = ZIKMapKit;
+			productReference = 1854A4C5EDFD95D834412900538EC7AD /* ZIKMapKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 4E5B8A7DAD2DE503E18CE230FC8A4575 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				62BD4396E233E25C5D5A7A69DF027590 /* MJRefresh */,
+				746287D5035816916039699BFCB002C1 /* Pods-ZIKMapKit_Example */,
+				3B4F2A9612C9B486A4754CEE23F2651A /* Pods-ZIKMapKit_Tests */,
+				D49F50535D0393A0881EF6F00702A75B /* ZIKMapKit */,
+				B8BEE506A1A443A93C7A18FB491BBFD7 /* ZIKMapKit-ZIKMapKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1B2ADF4B6E15482965C1A091C001FAA9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74896A0AEF4C150F7E1D43741442E377 /* ZIKMap.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		990F48421A51E7E5417E7501B1CB5981 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE0A215B275321CA6F1C901060906CAA /* MJRefresh.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E85881340A9C08AC83E43EF76F7A6250 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0D6E9BB3F1E0592E3A0F4B62AC7A78A4 /* ZIKMapKit.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01602B3E2F394F1328F1F817F3802D71 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9817164E9F6C5B766CFE01FFB67A1EFF /* MJRefresh-dummy.m in Sources */,
+				B8E5E6E4218659D0FB8AAC854CC7D259 /* MJRefreshComponent.m in Sources */,
+				E4517A149F29B4CF25CFA9C13D4876A9 /* MJRefreshConst.m in Sources */,
+				B7650A4A12BDCA18CCAE2E41496E0C0D /* MJRefreshFooter.m in Sources */,
+				B55C101D928BD4836759BB3047A21CB0 /* MJRefreshGifFooter.m in Sources */,
+				56C35D4BCB48F6AC1073D1D4EA6727AE /* MJRefreshGifHeader.m in Sources */,
+				56C0D5442F01D75CAE28C370341D2C68 /* MJRefreshHeader.m in Sources */,
+				D391F2926932C547B22E70C9F6692275 /* MJRefreshLegendFooter.m in Sources */,
+				C9482BEEC7775A47CFD327C20BCF0699 /* MJRefreshLegendHeader.m in Sources */,
+				EC7FC12D0FCB5A33017B70D92E095BF8 /* UIScrollView+MJExtension.m in Sources */,
+				A11882D5320828152C51457CA8E21A18 /* UIScrollView+MJRefresh.m in Sources */,
+				241C440B89CB8EDD564EA0E4C3AB026A /* UIView+MJExtension.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		046C7B5BF79E188CDC58B31EAA4405F0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				65CAD697926DA15D9CF11A146FC61FAC /* Pods-ZIKMapKit_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0A1C440D8ACE727A99F94891EA9C5258 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C52FC80B52E67EB13E50B21ECBAA6F7 /* Pods-ZIKMapKit_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FA6A958C065DC87A23A98F28BB9BDE5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFCFF8A591CC2C63B4876A59F04BAD41 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				55E6BD5894EE568FB20DE267EFA4DCCA /* ZIKMapKit-dummy.m in Sources */,
+				D5F984091AF5C259B56B03FBED2A8FFE /* ZIKMapTextViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0198BC22FACBC94C46294F81701925B3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = 62BD4396E233E25C5D5A7A69DF027590 /* MJRefresh */;
+			targetProxy = CF1B4F5B205A00460E8D2260393D77E3 /* PBXContainerItemProxy */;
+		};
+		75217C4DD1669C634ADDD43A7FE69335 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ZIKMapKit;
+			target = D49F50535D0393A0881EF6F00702A75B /* ZIKMapKit */;
+			targetProxy = 3F802397AAC969B38A81BBE85D01552E /* PBXContainerItemProxy */;
+		};
+		7CF22077479E9ED60465B558E11D0F80 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "ZIKMapKit-ZIKMapKit";
+			target = B8BEE506A1A443A93C7A18FB491BBFD7 /* ZIKMapKit-ZIKMapKit */;
+			targetProxy = 102686C705654BC22B6071A11CFC86E7 /* PBXContainerItemProxy */;
+		};
+		FA12A80B19C0CF23B30DCEFD8D8EA4FB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MJRefresh;
+			target = 62BD4396E233E25C5D5A7A69DF027590 /* MJRefresh */;
+			targetProxy = 18783CD0FF67B5E2F474E03EBFBA4994 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		34FE9531DA9AF2820790339988D5FF41 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3645E3CEA4827886D392122DE83B1647 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F0A96D7A16E1E76B259CD5F1C50489 /* ZIKMapKit.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZIKMapKit";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ZIKMapKit/ResourceBundle-ZIKMapKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZIKMapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		45D1B753AD01739E2E466C5AFE8FB11A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112A9FBB27170BE164E91C4ADBED5946 /* MJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = MJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		5E2108F6B8FC9869429108A8DA1E6943 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F0A96D7A16E1E76B259CD5F1C50489 /* ZIKMapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZIKMapKit/ZIKMapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZIKMapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZIKMapKit/ZIKMapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ZIKMapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		6C4D9D0D27A491881BB19C38A4582B91 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D7EE851988B1D9B54E477D63FA9E44AE /* Pods-ZIKMapKit_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZIKMapKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZIKMapKit_Tests/Pods-ZIKMapKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZIKMapKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		815D9CD04B74AE7D2993B79ACA55410E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F0A96D7A16E1E76B259CD5F1C50489 /* ZIKMapKit.xcconfig */;
+			buildSettings = {
+				CONFIGURATION_BUILD_DIR = "$(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/ZIKMapKit";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/ZIKMapKit/ResourceBundle-ZIKMapKit-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				PRODUCT_NAME = ZIKMapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		A29915A618254F02E918C10B24AFD5FA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 77F0A96D7A16E1E76B259CD5F1C50489 /* ZIKMapKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ZIKMapKit/ZIKMapKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ZIKMapKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ZIKMapKit/ZIKMapKit.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ZIKMapKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3DE5F67D96C3ECA585F178FEB32FDD9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 112A9FBB27170BE164E91C4ADBED5946 /* MJRefresh.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/MJRefresh/MJRefresh-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/MJRefresh/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/MJRefresh/MJRefresh.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = MJRefresh;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		C104F7F091290C3D1E248192F07FE689 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		D45AA9B224F247D8C221AC66895420BA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B2791E63825D6B56D4D30C881048A44C /* Pods-ZIKMapKit_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZIKMapKit_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZIKMapKit_Tests/Pods-ZIKMapKit_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZIKMapKit_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		FA1793BA9749BDF889E343D29390F8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 95C965B695EFAACE16F2F8C1AF5726B7 /* Pods-ZIKMapKit_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZIKMapKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZIKMapKit_Example/Pods-ZIKMapKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZIKMapKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		FE0A3ADCDCC70F49E8C8DE6B44C799A1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5BA4C78E896E8C5B19E11E28D93EBBB9 /* Pods-ZIKMapKit_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ZIKMapKit_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ZIKMapKit_Example/Pods-ZIKMapKit_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ZIKMapKit_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		077A166C1BE527D60480FB8966F815F1 /* Build configuration list for PBXNativeTarget "Pods-ZIKMapKit_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D45AA9B224F247D8C221AC66895420BA /* Debug */,
+				6C4D9D0D27A491881BB19C38A4582B91 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C104F7F091290C3D1E248192F07FE689 /* Debug */,
+				34FE9531DA9AF2820790339988D5FF41 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2FBE639E7D6A64E02F731251BF1B080A /* Build configuration list for PBXNativeTarget "ZIKMapKit-ZIKMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				815D9CD04B74AE7D2993B79ACA55410E /* Debug */,
+				3645E3CEA4827886D392122DE83B1647 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		41E3E86EF7F958D7A58073D06AED446C /* Build configuration list for PBXNativeTarget "Pods-ZIKMapKit_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE0A3ADCDCC70F49E8C8DE6B44C799A1 /* Debug */,
+				FA1793BA9749BDF889E343D29390F8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BD8194647922F1ABD028FE6A040C8D93 /* Build configuration list for PBXNativeTarget "ZIKMapKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A29915A618254F02E918C10B24AFD5FA /* Debug */,
+				5E2108F6B8FC9869429108A8DA1E6943 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F52F92C545DDEC90E147576860F1FA32 /* Build configuration list for PBXNativeTarget "MJRefresh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45D1B753AD01739E2E466C5AFE8FB11A /* Debug */,
+				A3DE5F67D96C3ECA585F178FEB32FDD9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

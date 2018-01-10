@@ -1,0 +1,6 @@
+framework module ZIKMapKit {
+  umbrella header "ZIKMapKit-umbrella.h"
+
+  export *
+  module * { export * }
+}
